@@ -4,7 +4,7 @@ batch_size: 256
 workers: 16
 start_epoch: 0
 epochs: 100   #boostx: orig=5
-dataset: "STL10" # STL10
+dataset: "CIFAR10" # STL10
 
 # model options
 resnet: "resnet50"
