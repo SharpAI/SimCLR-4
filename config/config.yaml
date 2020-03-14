@@ -3,7 +3,7 @@ seed: 42 # sacred handles automatic seeding when passed in the config
 batch_size: 256 
 workers: 16
 start_epoch: 0
-epochs: 100
+epochs: 100   #boostx: orig=5
 dataset: "STL10" # STL10
 
 # model options
