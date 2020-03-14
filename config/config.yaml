@@ -18,7 +18,7 @@ temperature: 0.5 # see appendix B.7.: Optimal temperature under different batch 
 
 # reload options
 model_path: "logs/0" # set to the directory containing `checkpoint_##.tar` 
-epoch_num: 100 # set to checkpoint number
+epoch_num: 3 # set to checkpoint number boostx: org= 100
 
 # mixed-precision training
 fp16: False 
@@ -27,4 +27,4 @@ fp16_opt_level: "O2"
 
 # logistic regression options
 logistic_batch_size: 256
-logistic_epochs: 100
+logistic_epochs: 5   # boostx: org=100
