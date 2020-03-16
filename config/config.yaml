@@ -27,4 +27,4 @@ fp16_opt_level: "O2"
 
 # logistic regression options
 logistic_batch_size: 256
-logistic_epochs: 5   # boostx: org=100
+logistic_epochs: 1   # boostx: org=100
