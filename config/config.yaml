@@ -3,8 +3,8 @@ seed: 42 # sacred handles automatic seeding when passed in the config
 batch_size: 256 
 workers: 16
 start_epoch: 0
-epochs: 100   #boostx: orig=100
-dataset: "CIFAR10" # STL10
+epochs: 5   #boostx: orig=100
+dataset: "STL10" # STL10
 
 # model options
 resnet: "resnet50"
@@ -18,7 +18,7 @@ temperature: 0.5 # see appendix B.7.: Optimal temperature under different batch 
 
 # reload options
 model_path: "logs/0" # set to the directory containing `checkpoint_##.tar` 
-epoch_num: 100 # set to checkpoint number boostx: org= 100
+epoch_num: 5 # set to checkpoint number boostx: org= 100
 
 # mixed-precision training
 fp16: False 
@@ -27,4 +27,4 @@ fp16_opt_level: "O2"
 
 # logistic regression options
 logistic_batch_size: 256
-logistic_epochs: 100   # boostx: org=100
+logistic_epochs: 10   # boostx: org=100
